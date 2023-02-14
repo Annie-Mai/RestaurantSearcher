@@ -1,0 +1,7 @@
+.about-text{
+    padding: 10%;
+    font-weight: 600;
+    font-size: 2vw;
+    color: var(--pale);
+    text-align: center;
+}

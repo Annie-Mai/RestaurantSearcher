@@ -1,0 +1,97 @@
+.contactContainer{
+    /* width: 100%; */
+    padding: 0;
+    margin: 0;
+}
+.about-section {
+    padding: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: var(--primary);
+    color: var(--light);
+}
+.row{
+    padding-top: 3%;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    padding: 5% 0 10% 0;
+    background-color: var(--default);
+}
+
+.containers {
+    padding: 0 16px;
+    width: 100%;
+}
+
+.containers::after, .row::after {
+    content: "";
+    clear: both;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: var(--pale);
+    font-weight: 500;
+    padding-bottom: 7%;
+}
+
+.buttons{
+    padding: 15px;
+    background-color: var(--dark);
+    color: var(--light);
+    border: none;
+    border-radius: 20px;
+}
+
+.buttons a{
+    text-decoration: none ;
+    color: var(--light);
+}
+
+.buttons:hover {
+    background-color: var(--darker);
+}
+
+h2{
+    color: var(--darker);
+    font-weight: 600;
+    padding: 7% 0 0 0;
+}
+
+.ctext{
+    padding: 3% 0 0 0;
+    font-weight: 300;
+    color: white;
+}
+
+.buttonCont{
+    padding-top: 5%;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+    img{
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;
+    }
+    .column {
+      width: 100%;
+      display: grid;
+    }
+}

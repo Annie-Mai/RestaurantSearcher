@@ -1,0 +1,116 @@
+
+.inputContainer{
+    padding: 2% 1% 0 1%;
+    width: 100%;
+    text-align: center;
+}
+
+
+.wrapper{
+    /* padding-top: 7%; */
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.inputContainer input{
+    width: 100%;
+    padding: 0.7rem 0.4rem 0.7rem 1rem;
+    text-indent: 1rem;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-radius: 20px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    background-color: var(--light);
+}
+
+.inputContainer input::placeholder {
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.submit{
+    font-family: 'Nunito', sans-serif;
+    padding: 0 1rem;
+    height: 3rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    color: var(--light);
+    background-color: var(--dark);
+    border: none;
+    cursor: pointer;
+}
+
+.inputContainer button:hover{
+    background-color: var(--darker);
+}
+
+
+
+.main-container{
+    margin: 1rem;
+    text-align: center;
+    display: block;
+}
+
+.GoogleMap{
+    display: inline-block;
+    justify-items: center;
+}
+.searchBar{
+    float:left; 
+}
+
+
+.rest-list{
+    overflow:hidden;
+}
+
+@media only screen and (max-width: 1024px) {
+    .searchBar{
+            float: none;
+            margin-right:0;
+            width:auto;
+            border:0;
+    }
+    .inputContainer input{
+        width: 100%;
+        padding: 0.7rem 0.4rem 0.7rem 1rem;
+        text-indent: 1rem;
+        border: none;
+        outline: none;
+        font-size: 3vw;
+        border-radius: 20px;
+        border-top-right-radius: 1px;
+        border-bottom-right-radius: 1px;
+        background-color: var(--light);
+        height: 100%;
+    }
+    .submit{
+        font-size: 3vw;
+        font-family: 'Nunito', sans-serif;
+        padding: 0 1rem;
+        height: 3rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        border-radius: 20px;
+        border-top-left-radius: 1px;
+        border-bottom-left-radius: 1px;
+        color: var(--light);
+        background-color: var(--dark);
+        border: none;
+        height: 100%;
+        cursor: pointer;
+    }
+    .wrapper{
+        height: 10rem;
+    }
+}

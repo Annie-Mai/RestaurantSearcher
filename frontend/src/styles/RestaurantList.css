@@ -1,0 +1,80 @@
+.card-wrapper{
+    background-color: var(--light);
+    border: solid var(--primary);
+    display: inline-block;
+    padding: 2%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card-container{
+    margin: 5% 0 5% 0;
+}
+.restaurant-card{
+    display: inline-block;
+}
+
+.fav-btn{
+    font-family: 'Nunito', sans-serif;
+    padding: 0 1rem;
+    height: 3rem;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    color: var(--light);
+    background-color: var(--dark);
+    border: none;
+    cursor: pointer;
+    margin: 2%;
+}
+.route-btn{
+    font-family: 'Nunito', sans-serif;
+    padding: 0 1rem;
+    height: 3rem;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 20px;
+    color: var(--light);
+    background-color: var(--dark);
+    border: none;
+    cursor: pointer;
+    margin: 2%;
+}
+
+.name{
+    font-size: 1.8vw;
+}
+.card-text{
+    font-size: 1.5vw;
+}
+.rating{
+    font-size: 1.2vw;
+}
+
+@media screen and (max-width: 650px) {
+    .name{
+        font-size: 2vw;
+    }
+    .card-text{
+        font-size: 1.5vw;
+    }
+    .rating{
+        font-size: 1.5vw;
+    }
+    .restaurant-card{
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+    }
+    .card-wrapper{
+        background-color: var(--light);
+        border: solid var(--primary);
+        display: inline-block;
+        padding: 2%;
+        width: 50rem;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+}
